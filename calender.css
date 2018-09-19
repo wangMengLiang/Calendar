@@ -1,0 +1,77 @@
+			html, body{
+				padding: 0;
+				margin: auto;
+				width: 375px;
+			}
+			
+			#calender {
+				width: 100%;
+				font-size: 15px;
+			}
+			#calender-header{
+				color: white;
+				margin-bottom: 10px;
+				width: 100%;
+				height: 90px;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				background-image: url(https://test.yusi.tv/web_images/qinhangmobile/mycourse/date_bg.png);
+			}
+			
+			.arrow-style {
+				width: 6px;
+				height: 10px;
+			}
+			
+			#month-view {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				height: 60px;
+			}
+			
+			#week-view {
+				display: flex;
+				justify-content: center;
+				width: 100%;
+				height: 30px;
+			}
+			
+			#week-view span {
+				width: 13%;
+				text-align: center;
+			}
+			
+			
+			
+			.date-row {
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				margin-bottom: 12px;
+			}
+			
+			.date-item {
+				width: 13%;
+				text-align: center;
+				height: 30px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.cur-day div{
+				color: white;
+				background-color: #ff6c13;
+				border-radius: 15px;
+				width: 30px;
+				height: 30px;
+				line-height: 30px;
+			}
+			
+			.hasClass{
+				color: #ff6c13;
+				height: 0;
+				margin-top: -5px;
+			}
